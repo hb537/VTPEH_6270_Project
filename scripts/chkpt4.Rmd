@@ -112,7 +112,7 @@ I removed the rows with missing values on the key variables and the participants
 
 ## Data Visualization
 
-```{r visualization, fig.width = 9, fig.height = 4}
+```{r anxiety-tech-scatter-box, fig.width = 9, fig.height = 4}
 
 # Plot 1: A Scatter plot with a regression line
 p1 <- ggplot(analysis_data, aes(x = tech_score, y = GAD7_Sum1)) +
@@ -373,7 +373,7 @@ knitr::kable(
 
 # Visualization
 
-```{r sim-visualization, fig.width = 10, fig.height = 7}
+```{r power-analysis-heatmap, fig.width = 10, fig.height = 7}
 
 # Compute power for each parameter combo
 power_summary <- sim_stats %>%
