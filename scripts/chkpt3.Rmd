@@ -119,7 +119,7 @@ Overall, these stratified descriptive statistics suggest a potential age gradien
 
 # Comparative Visualizations
 
-```{r, results='hide'}
+```{r tech-age-boxplot, results='hide'}
 
 # Color-Coding
 
@@ -159,6 +159,11 @@ scale_y_continuous(breaks = 1:7)+
   nature_theme
 
 p1
+
+```
+
+
+``` {r tech-age-violin, results='hide'}
 
 # Visualization 2: Violin Plot
 
