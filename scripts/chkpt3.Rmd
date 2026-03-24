@@ -11,12 +11,13 @@ output:
     number_sections: true
     latex_engine: xelatex
 urlcolor: blue
-bibliography: references.bib
+bibliography: "../references.bib"
 ---
 
 ```{r setup, include = FALSE}
 
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+knitr::opts_chunk$set(fig.path = "../outputs/figures/")
 
 ```
 
