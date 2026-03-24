@@ -14,6 +14,7 @@ output:
 
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+knitr::opts_chunk$set(fig.path = "../outputs/figures/")
 ```
 
 # Introduction
@@ -31,9 +32,8 @@ library(ggpubr)
 ```
 
 ```{r load-data}
-setwd("~/Desktop/R_Lab/Checkpoint_4")
-mwel_data <- read_csv("APEX_Data.csv")
-codebook  <- read_csv("APEX_Data_Codebook.csv")
+mwel_data <- read_csv("../data/raw/APEX_Data.csv")
+codebook  <- read_csv("../data/APEX_Data_Codebook.csv")
 ```
 
 # Objective and Approach

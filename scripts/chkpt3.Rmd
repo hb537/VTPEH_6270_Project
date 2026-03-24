@@ -26,9 +26,6 @@ This checkpoint will explore patterns in technology engagement among educators u
 
 ```{r, results='hide'}
 
-#Loading Data and Packages
-setwd("~/Desktop/R_Lab/APEX Data")
-
 library(tidyverse)
 library(ggplot2)
 library(dplyr)
@@ -37,8 +34,8 @@ library(readr)
 library(psych)
 library(ggpubr)
 
-mwel_data <- read_csv("mWEL_R21_Data.csv")
-codebook <- read_csv("mWEL_R21_Data_Deictionary.csv")
+mwel_data <- read_csv("../data/raw/APEX_Data.csv")
+codebook <- read_csv("../data/APEX_Data_Codebook.csv")
 
 ```
 
